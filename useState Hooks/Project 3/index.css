@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ background-color: antiquewhite;
+}
+
+.btn{
+  padding: 20px;
+  background-color: aqua;
+  border: none;
+  border-radius:15px ;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.main{
+  padding: 170px 0;
+  text-align: center;
+}
+
+.btn:hover{
+  background-color: rgba(40, 40, 218, 0.897);
+  transition: all 2s;
+  transform: scale(1.3);
+}
